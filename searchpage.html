@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/top-nav.css" />
+    <link rel="stylesheet" href="./assets/css/side-nav.css" />
+    <link rel="stylesheet" href="./assets/css/bottom-player.css" />
+    <link rel="stylesheet" href="./assets/css/profile.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/searchpage.css" />
+    <script type="module" src="./assets/js/player.js" async></script>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,301,300,401,400&f[]=excon@400,900,700,500,300,100,1&f[]=outfit@1,400,900,800,300,500,600,200,100,700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="assets/js/getSearch.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="sideBar">
+        <div class="sideDivTileTop">
+          <ul>
+            <li>
+              <a href="home.html"><img src="./assets/imgs/home.svg" />Home</a>
+            </li>
+            <li>
+              <a href="searchpage.html"
+                ><img src="./assets/imgs/search.svg" />Search</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="sideDivTile">
+          <h4><img src="./assets/imgs/library.svg" />Your Library</h4>
+          <a></a>
+          <a></a>
+          <div>
+            <h3>Create your first playlist</h3>
+            <p>it's easy, we'll help you</p>
+            <button>Create Playlist</button>
+          </div>
+          <div>
+            <h3>Lets's find some podcast to follow</h3>
+            <p>We'll leep you updated on new episodes</p>
+            <button>Browse podcast</button>
+          </div>
+        </div>
+      </div>
+      <div id="heroSection">
+        <nav>
+          <div>
+            <button id="leftArrow">
+              <!-- <img src="./assets/imgs/leftarrrow.png" /> -->
+            </button>
+            <button id="rightArrow">
+              <!-- <img src="./assets/imgs/rightarrow.png" /> -->
+            </button>
+            <div class="search">
+              <input
+                type="text"
+                class="searchInput"
+                placeholder="What do you want to listen to?"
+              />
+            </div>
+          </div>
+          <button id="loginLink" href="profile.html">
+            <img src="./assets/imgs/user.png" />
+          </button>
+        </nav>
+        <section class="searchDisplay">
+          <h1>Browse All</h1>
+        </section>
+        <div class="bottomBar">
+          <div class="footerTop">
+            <div class="companyWrapper">
+              <p class="header">Company</p>
+              <p>
+                <a href="https://www.spotify.com/in-en/about-us/contact/"
+                  >About</a
+                >
+              </p>
+              <p><a href="https://www.lifeatspotify.com/">Jobs</a></p>
+              <p><a href="https://newsroom.spotify.com/">For the Record</a></p>
+            </div>
+            <div class="communitiesWrapper">
+              <p class="header">Communities</p>
+              <p><a href="https://artists.spotify.com/home">For Artists</a></p>
+              <p><a href="https://developer.spotify.com/">Developers</a></p>
+              <p><a href="https://ads.spotify.com/en-IN/">Advertising</a></p>
+              <p>
+                <a href="https://investors.spotify.com/home/default.aspx"
+                  >Investors</a
+                >
+              </p>
+              <p><a href="https://spotifyforvendors.com/">Vendors</a></p>
+            </div>
+            <div class="usefulLinksWrapper">
+              <p class="header">Useful links</p>
+              <p><a href="https://support.spotify.com/in-en/">Support</a></p>
+              <p>
+                <a href="https://www.spotify.com/in-en/download/windows/"
+                  >Free Mobile App</a
+                >
+              </p>
+            </div>
+            <div class="socialWrapper">
+              <button><img src="./assets/imgs/instagram.png" /></button>
+              <button><img src="./assets/imgs/twitter.png" /></button>
+              <button><img src="./assets/imgs/facebook.png" /></button>
+            </div>
+          </div>
+          <hr />
+          <div class="footerBottom">
+            <div class="navbar">
+              <p><a href="https://www.spotify.com/in-en/legal/">Legal</a></p>
+              <p>
+                <a href="https://www.spotify.com/in-en/privacy"
+                  >Privacy Center</a
+                >
+              </p>
+              <p>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </p>
+              <p>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                  >Cookies</a
+                >
+              </p>
+              <p>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                  >About Ads</a
+                >
+              </p>
+              <p>
+                <a href="https://www.spotify.com/in-en/accessibility"
+                  >Accessibility</a
+                >
+              </p>
+            </div>
+            <div class="copyright">
+              <p>© 2023 Spotify AB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spotifyPlayer">
+      <div id="playerSongInfo">
+        <img id="playerAlbumArt" src="./assets/imgs/album.png" />
+        <div>
+          <p id="playerSongTitle">
+            Ramananaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          </p>
+          <p id="playerSongAlbum">
+            ramaniaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          </p>
+        </div>
+      </div>
+      <div class="playerControls">
+        <div class="controlButtonWrapper">
+          <button class="controlButton" id="shuffle" onclick="toggleShuffle()">
+            <i class="fas fa-random"></i>
+          </button>
+          <button
+            class="controlButton"
+            id="skipBackward"
+            onclick="skipBackward()"
+          >
+            <i class="fas fa-step-backward"></i>
+          </button>
+          <div id="playPauseDiv">
+            <button class="controlButton" id="playPause">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+          <button
+            class="controlButton"
+            id="skipForward"
+            onclick="skipForward()"
+          >
+            <i class="fas fa-step-forward"></i>
+          </button>
+          <button class="controlButton" id="repeat" onclick="toggleRepeat()">
+            <i class="fas fa-retweet"></i>
+          </button>
+        </div>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <audio id="musicPlayer">
+        <source id="audioSource" type="audio/mp3" />
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+  </body>
+</html>
