@@ -74,6 +74,7 @@
 }
 
 .descriptionElement {
+  font-size: x-small;
   max-height: 3.5em;
   overflow: hidden;
   margin-bottom: 1px;
