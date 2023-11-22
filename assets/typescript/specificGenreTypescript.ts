@@ -37,7 +37,7 @@ type PlaylistsResponse = {
     total: number;
   };
 };
-async()=>{
+async function test(){
 try {
   // Refresh access token
   await refreshAccessToken(localStorage.getItem('refresh_token'));
@@ -115,3 +115,4 @@ try {
   // Handle the error as needed, e.g., show a user-friendly message.
 }
 }
+test();
