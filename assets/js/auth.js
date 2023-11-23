@@ -53,8 +53,7 @@ async function main() {
     // You have the authorization code, proceed to exchange it for tokens
     exchangeCodeForTokens(authorizationCode).then((tokens) => {
       // Use the access and refresh tokens as needed
-      console.log("Access Token:", tokens.accessToken);
-      console.log("Refresh Token:", tokens.refreshToken);
+
 
       window.location.href = redirectUri;
     });
